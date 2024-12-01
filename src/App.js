@@ -9,11 +9,16 @@ import Inventory from './component/Inventory';
 import Sales from './component/Sales'
 import Order from './component/Order';
 import Add from './component/Add';
-import AddOrder from './component/AddOrder';
-import AddProduct from './component/AddProduct';
-import AddSales from './component/AddSales';
-import AddSupplier from './component/AddSupplier';
+import AddOrder from './component/Create/AddOrder';
+import AddProduct from './component/Create/AddProduct';
+import AddSales from './component/Create/AddSales';
+import AddSupplier from './component/Create/AddSupplier';
 import AllSuppliers from './component/AllSuppliers';
+import AddSupplierProduct from './component/Create/AddSupplierProduct';
+import UpdateOrder from './component/Update/UpdateOrder';
+import EditOrder from './component/Update/EditOrder';
+
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
 function App() {
@@ -30,11 +35,14 @@ function App() {
       <Route exact path='/sales/:pid' element={<Sales/>}></Route>
       <Route exact path='/orders/:pid' element={<Order/>}></Route>
       <Route exact path='/add' element={<Add/>}></Route>
-      <Route exact path='/addProduct' element={<AddProduct/>}></Route>
-      <Route exact path='/addSales' element={<AddSales/>}></Route>
-      <Route exact path='/addOrder' element={<AddOrder/>}></Route>
-      <Route exact path='/addSupplier' element={<AddSupplier/>}></Route>
       <Route exact path='/suppliers' element={<AllSuppliers/>}></Route>
+      <Route exact path='/add/addProduct' element={<AddProduct/>}></Route>
+      <Route exact path='/add/addSales' element={<AddSales/>}></Route>
+      <Route exact path='/add/addOrder' element={<AddOrder/>}></Route>
+      <Route exact path='/add/addSupplier' element={<AddSupplier/>}></Route>
+      <Route exact path='/add/addSupplierProduct' element={<AddSupplierProduct/>}></Route>
+      <Route exact path='/orders' element={<UpdateOrder/>}></Route>
+      <Route exact path='/orders/:oid/edit' element={<EditOrder/>}></Route>
     </Routes>
    {/* <Project/> */}
    </BrowserRouter>

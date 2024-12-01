@@ -1,0 +1,49 @@
+/* General container styles */
+.add-container {
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+/* Title Styling */
+.add-container .text-center h3 {
+    font-size: 2.5rem;
+    color: #007bff;
+}
+
+.add-container .text-center p {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+/* Button Container Styling */
+.button-container .row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.button-container .col-md-3 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Button Styling */
+.btn-block {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+/* Hover Effect */
+.btn-outline-primary:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Bottom Margin */
+.mb-3 {
+    margin-bottom: 1.5rem;
+}

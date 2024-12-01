@@ -1,0 +1,74 @@
+/* Container for the sales page */
+.container {
+    margin-top: 30px;
+}
+
+/* Title for the Product Information */
+h3 {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+/* Card styling for each sale */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 15px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff;
+}
+
+/* Hover effect for card */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Card body styling */
+.card-body {
+    padding: 1.25rem;
+}
+
+/* Sale ID styling */
+.card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 1rem;
+}
+
+/* Date styling */
+.card-subtitle {
+    font-size: 0.95rem;
+    color: #6c757d;
+    margin-bottom: 1rem;
+}
+
+/* Text styling for sale details */
+.card-text {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+}
+
+/* Card for loading state */
+h3 {
+    text-align: center;
+    color: #007bff;
+    font-size: 1.5rem;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+        margin: 10px auto;
+    }
+    h3 {
+        font-size: 1.25rem;
+    }
+}

@@ -1,0 +1,76 @@
+/* Custom styles for AddSupplier page */
+.add-supplier-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.8rem;
+    color: #343a40;
+    margin-bottom: 30px;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #495057;
+}
+
+.form-control {
+    border-radius: 8px;
+    font-size: 1rem;
+    padding: 12px;
+}
+
+.btn {
+    font-size: 1.1rem;
+    padding: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #007bff;
+}
+
+.btn:disabled {
+    background-color: #6c757d;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+.col-auto {
+    display: flex;
+    justify-content: center;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="number"],
+textarea {
+    font-size: 1rem;
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .add-supplier-form {
+        padding: 20px;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    .form-control {
+        font-size: 0.9rem;
+    }
+    .btn {
+        font-size: 1rem;
+        padding: 10px;
+    }
+}

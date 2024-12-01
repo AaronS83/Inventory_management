@@ -1,0 +1,62 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background and spacing */
+.home-container {
+    background-color: #f8f9fa;
+    padding: 30px;
+}
+
+/* Jumbotron Styling */
+.jumbotron {
+    background-color: #007bff;
+    color: white;
+    border-radius: 10px;
+    padding: 40px 20px;
+}
+
+.jumbotron h1 {
+    font-size: 3rem;
+}
+
+.jumbotron p {
+    font-size: 1.25rem;
+}
+
+/* Button Container */
+.button-container {
+    margin-top: 40px;
+}
+
+.button-container .row {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.button-container .col-md-3 {
+    margin: 15px 0;
+}
+
+/* Button Customization */
+.btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+/* Hover Effects */
+.btn:hover {
+    transform: scale(1.05);
+}
+
+/* Icon styling */
+.fas {
+    margin-right: 10px;
+}

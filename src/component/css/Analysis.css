@@ -1,0 +1,48 @@
+/* Custom Styles for Analysis Component */
+.container {
+    max-width: 800px;
+    padding: 20px;
+}
+
+/* Spinner */
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+    border-width: 0.5rem;
+}
+
+/* Card Styling */
+.card {
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Spacing between cards */
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+/* Heading */
+h3 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #343a40;
+}
+
+/* Adjustments for responsiveness */
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+}

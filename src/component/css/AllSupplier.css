@@ -1,0 +1,105 @@
+/* Custom Styles for AllSuppliers */
+.container {
+    max-width: 1200px;
+    padding: 20px;
+}
+
+/* Loading Spinner */
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+    border-width: 0.5rem;
+}
+
+/* Error Alert */
+.alert {
+    font-size: 1.1rem;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.alert .close {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+/* Supplier Cards Grid */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-md-4 {
+    display: flex;
+    justify-content: center;
+}
+
+/* SupplierCard */
+.supplier-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.supplier-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.supplier-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.supplier-card .card-body {
+    padding: 15px;
+}
+
+.supplier-card .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.supplier-card .card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Title and Heading Styling */
+h3, h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Spacing */
+.my-5 {
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* For Better Responsiveness */
+@media (max-width: 768px) {
+    .col-md-4 {
+        flex: 1 1 100%;
+    }
+}

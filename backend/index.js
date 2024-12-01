@@ -220,7 +220,7 @@ import orderRoutes from "./routes/orderRoutes.js";
 import analysisRoutes from "./routes/analysisRoutes.js";
 import salesRoutes from "./routes/salesRoutes.js";
 import supplierRoutes from "./routes/supplierRoutes.js"
-
+import addRoutes from "./routes/addRoutes.js"
 const app = express();
 const PORT = 8800;
 
@@ -229,10 +229,11 @@ app.use(cors());
  
 app.use('/product', productRoutes);
 app.use('/inventory', inventoryRoutes);
-app.use('/order', orderRoutes);
+app.use('/orders', orderRoutes);
 app.use('/analysis', analysisRoutes);
 app.use('/sales', salesRoutes);
 app.use('/suppliers', supplierRoutes);
+app.use('/add', addRoutes);
 
 app.listen(PORT, ()=>{
     console.log(`Server is running on port ${PORT}`);

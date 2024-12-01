@@ -1,3 +1,4 @@
+// import "./css/SupplierCard.css"
 function SupplierCard(props) {
     const supplierDetails = props.supplierDetails;
     return (
